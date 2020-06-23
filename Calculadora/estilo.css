@@ -1,0 +1,72 @@
+body{
+	height: 100%;
+}
+
+#objeto{
+	width: 25%;
+	height: 40%;
+	text-align: center;
+	padding: 1%;
+	margin: 3% auto;
+}
+
+#calculadora{
+	background: #151E1D;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	text-align: center;
+	padding-bottom: 5%
+
+}
+
+#visores{
+	background: #B6D8DD;
+	width: 90%;
+	height: 13%;
+	margin: 5% auto;
+	margin-bottom: 10%;
+	border:6px ridge;
+}
+#visorCalc1{
+	background: #B6D8DD;
+	width: 100%;
+	height: 13%;
+	text-align: right;
+	font-size: 18px;
+	color: blue;
+}
+
+#visorCalc2{
+	background: #B6D8DD;
+	width: 100%;
+	text-align: right;
+	font-size: 30px;
+
+}
+
+#teclas{
+	width: 100%;
+	margin-right: 2%;
+	margin-top: 7%;
+	margin-bottom: 1%;
+	
+}
+
+input#operacoes{
+	background: #083E3D;
+	width: 21%;
+	height: 15%;
+	border: 4px groove;
+	font-size: 22px;
+	color: white;
+}
+
+input#algarismos{
+	background: #04959A;
+	width: 21%;
+	height: 15%;
+	border: 4px groove;
+	font-size: 22px;
+	color: white;
+}

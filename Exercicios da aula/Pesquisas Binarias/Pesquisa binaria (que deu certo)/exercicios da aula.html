@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exercicio2</title>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script>
+
+	function exer1(){
+		let a = parseFloat(prompt("Insira o primeiro número"))
+		let b = parseFloat(prompt("Insira o segundo número"))
+		let c = parseFloat(prompt("Insira o terceiro número"))
+		let d = parseFloat(prompt("Insira o quarto número"))
+		let e = parseFloat(prompt("Insira o quinto número"))
+
+		alert("Primeiro número "+Math.pow(a,2))
+		alert("Segundo número "+Math.pow(b,2))
+		alert("Terceiro número "+Math.pow(c,2))
+		alert("Quarto número "+Math.pow(d,2))
+		alert("Quinto número "+Math.pow(e,2))
+	}
+
+	function exer2(){
+		let a = parseFloat(prompt("Insira o primeiro número"))
+		let b = parseFloat(prompt("Insira o segundo número"))
+
+		if(a>b){maior = a;menor = b}else{maior = b; menor = a}
+
+		alert("O maior número é: "+ maior+"\nE o menor é: "+ menor)
+	}
+
+	function exer3(){
+		//elabore um programa que solicite 5 numeros e imprimaos em ordem crescente
+
+	}
+
+	// do{
+	// 	trocou = false
+	// 	for(i=0;i<=7; i++){
+	// 		if(vet[i]>vet[i+1]){
+	// 			aux = vet[i]
+	// 			vet[i] = vet[i+1]
+	// 			vet[i+1] = aux
+	// 			trocou = true
+	// 		}
+	// 	}
+	// } while(trocou)
+
+	</script>
+</head>
+<body>
+	<input type="button" value="Primeira Função" onclick="exer1()">
+	<input type="button" value="Segunda Função" onclick="exer2()">
+	<input type="button" value="Terceira Função" onclick="exer3()">
+</body>
+</html>

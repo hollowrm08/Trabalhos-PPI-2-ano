@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel= "stylesheet" type= "text/css" href="estilo.css" />
+	<title>Calculadora - Rodrigo</title>
+	<script language="javascript" src="script.js"></script>
+	
+</head>
+<body>
+	
+	<div id="objeto">
+	<div id="calculadora" >
+		<div id= "visores">
+			<div id="visorCalc1">0</div>
+			<div id="visorCalc2">0</div>
+		</div>
+	
+		<div id="teclas">
+			<input type="button" id="operacoes" value="C" id="clear"  onclick="funcao('clear')">
+			<input type="button" id="operacoes" value="MS" id="MRC" onclick="funcao('ms')">
+			<input type="button" id="operacoes" value="M+" id="M+" onclick="funcao('m+')">
+			<input type="button" id="operacoes" value="M-" id="M-" onclick="funcao('m-')">
+		</div>
+
+		<div id="teclas">
+			<input type="button" id="operacoes" value="CE" onclick="funcao('ce')">
+			<input type="button" id="operacoes" value="MC" onclick="funcao('mc')">
+			<input type="button" id="operacoes" value="√" onclick="funcao('√')">
+			<input type="button" id="operacoes" value="%" onclick="funcao('%')">
+		</div>
+
+		<div id="teclas">
+			<input type="button" id="algarismos" value="7" onclick="funcao('7')">
+			<input type="button" id="algarismos" value="8" onclick="funcao('8')">
+			<input type="button" id="algarismos" value="9" onclick="funcao('9')">
+			<input type="button" id="operacoes" value="/" onclick="funcao('/')">
+		</div>
+
+		<div id="teclas">
+			<input type="button" id="algarismos" value="4" onclick="funcao('4')">
+			<input type="button" id="algarismos" value="5" onclick="funcao('5')">
+			<input type="button" id="algarismos" value="6" onclick="funcao('6')">
+			<input type="button" id="operacoes" value="X" onclick="funcao('*')">
+		</div>
+
+		<div id="teclas">
+			<input type="button" id="algarismos" value="1" onclick="funcao('1')">
+			<input type="button" id="algarismos" value="2" onclick="funcao('2')">
+			<input type="button" id="algarismos" value="3" onclick="funcao('3')">
+			<input type="button" id="operacoes" value="-" onclick="funcao('-')">
+		</div>
+
+		<div id="teclas">
+			<input type="button" id="algarismos" value="0" onclick="funcao('0')">
+			<input type="button" id="algarismos" value="." onclick="funcao('.')">
+			<input type="button" id="algarismos" value="=" onclick="funcao('=')">
+			<input type="button" id="operacoes" value="+" onclick="funcao('+')">
+			
+		</div>
+
+	</div>
+	</div>
+</body>
+</html>

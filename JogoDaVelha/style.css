@@ -1,0 +1,39 @@
+body{
+	height: 48vw;
+	align-content: center;
+	background: #0F0E0E;
+}
+
+header{
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 3%;
+	color: white;
+	text-shadow: #635A5A 3px 3px 3px;
+}
+p{
+	text-align: right;
+	color: white;
+}
+
+#gridC{
+	height: 50%;
+	width: 30%;
+	text-align: center;
+}
+
+.grid-contaider{
+	margin: 7% auto;
+	background: white;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quadrante{
+	background: #0D2625;
+	font-size: 30px;
+	color: white;
+	margin: 2%;
+}

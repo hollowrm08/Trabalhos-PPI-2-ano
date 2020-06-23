@@ -1,0 +1,18 @@
+Exer 1
+
+	Rotina pra validar o CPF 
+	parametro de entrada: String P_CPF
+		  de saida: "OK" - CPF Válido
+			    "NOK"- CPF Inválido
+
+
+Exer 2
+
+
+	Rotina Filtra_Texto
+	parametro de entrada: String_PTexto
+	parametro de saida:   String(Texto filtrado)
+	eliminar espaços a esquerda:
+	eliminar a direita
+	eliminar espaços duplos
+	elimina acentos

@@ -1,0 +1,3 @@
+	Elaborar um programa que solicite um numero infinito de dados (númericos inteiros), deve interromper a solicitação de dados quando o numero digitado for menor que zero (num <0)
+	Após a entrada de dados o vetor deve ser ordenado
+	Após a ordenação deve ser criado um loop onde será solicitado um número a ser procurado dentre os dados digitados. Proceder a pesquisa informando se o número procurado foi localizado ou não. Termina quando for digitado um número menor que 0
